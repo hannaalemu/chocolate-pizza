@@ -1,0 +1,209 @@
+html { 
+  padding: 20px 50px;
+}
+
+h1 { 
+  font-family: 'Anton', sans-serif;
+  font-size: 2.5rem;
+  margin-top: 60px;
+}
+
+.date { 
+  margin-top: 5px;
+  font-family: 'Anton', sans-serif;
+  font-size: 1rem;
+  font-weight: 100;
+  opacity: 0.5;
+}
+.print { 
+  font-family: 'Anton', sans-serif;
+  font-size: 1rem;
+  font-weight: 100;
+  opacity: 0.5;
+  float: right;
+}
+
+.blog { 
+  font-size: 0.8rem;
+  font-family: 'Stint Ultra Condensed', cursive;
+  margin-left: -121px;
+  float: left;
+}
+
+header { 
+  overflow: hidden;
+  height: 45px;
+  margin-bottom: 3em;
+  width: 901px;
+  margin: auto;
+  position: relative;
+}
+
+main { 
+  margin-top: 30px;
+  width: 901px;
+  margin: auto;
+  position: relative;
+  top: 30px;
+}
+
+.chocoPizza { 
+  margin-top: 30px;
+}
+
+header > img { 
+  float: left;
+}
+
+header > nav { 
+  height: 33px;
+  overflow: hidden;
+}
+
+
+header > nav > ul > li { 
+  float: right;
+  font-size: 0;
+}
+
+ul > li > img { 
+  padding: 0px 1px;
+}
+
+.icon { 
+  margin-right: 8px;
+}
+
+header > nav { 
+  float: right;
+}
+
+ul { 
+  width: 100%;
+  list-style-type: none;
+  padding: 11px 0px;
+}
+
+.break { 
+  height: 4px;
+  width: 100%;
+  background-image: url(/img/hr-img.png);
+  background-repeat: repeat-x;
+  padding: 0;
+  margin: 0;
+}
+
+p { 
+  opacity: 0.5;
+  font-family: Calibri;
+  text-indent: 30px;
+  margin: 30px 0px;
+}
+
+.checklist > form { 
+  position: absolute;
+  display: inline-block;
+  z-index: 100;
+  top: 32px;
+  left: 70px;
+}
+
+.first-list, .second-list { 
+  width: 50%;
+  float: left;
+  font-size: 1.3rem;
+  font-family: 'Patrick Hand', cursive;
+}
+
+.checklist { 
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.first-list > li { 
+  padding: 5px;
+  margin-right: 80px;
+}
+
+.second-list > li { 
+  padding: 5px;
+}
+
+.last-p { 
+  margin-bottom: 30px;
+}
+
+.profile { 
+  overflow: hidden;
+  height: 85px;
+  position: relative;
+  margin-top: 10px;
+}
+
+.profile > img { 
+  float: left;
+}
+
+.profile > p { 
+  text-indent: 0px;
+  font-family: 'Patrick Hand', cursive;
+  float: left;
+  line-height: 10px;
+  margin-left: 10px;
+}
+
+.profile > h2 { 
+  font-weight: bold; 
+  font-size: 1.2rem;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.profile > button { 
+  font-family: 'Patrick Hand', cursive;
+  float: right;
+  padding: 10px 20px;
+  background: rgb(187, 113, 94);
+  border: none;
+  color: white;
+  font-size: 1.3rem;
+  position: absolute;
+  left: 753px;
+  bottom: 17px;
+}
+
+footer { 
+  text-align: center;
+  height: 130px;
+  border-top: solid rgb(196, 193, 193);
+  border-width: thin;
+  margin-top: 80px;
+  font-weight: 900;
+  color: rgba(0,0,0,0.6);
+  position: relative;
+}
+
+.logo { 
+  background: white;
+  padding: 10px;
+  display: inline-block;
+  position: absolute;
+  bottom: 100px;
+  right: 410px;
+} 
+footer > p { 
+  margin-top: 50px;
+}
+
+.delicious { 
+  font-family: 'Yellowtail', cursive;
+  font-weight: 900;
+  font-size: 1.8rem;
+  opacity: 1;
+  color: black;
+  float: left;
+  margin-top: 0;
+  margin-left: -30px;
+  padding: 0;
+  text-align: left;
+}
